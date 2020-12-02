@@ -1,7 +1,7 @@
 # docker-tomcat-javaconfigomatic
 Example project for Docker Tomcat deployment with project JEE JavaConfigomatic
 
-Une fois les etapes d'installation effectuée rendez vous à l'URL : http://MONSITE:PORT/JavaConfigomatic/
+Une fois les etapes d'installation effectuée rendez vous à l'URL : http://monsite.com:port
 
 ## Etapes d'installation
 
