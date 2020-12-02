@@ -1,0 +1,21 @@
+version: '3.3'
+
+services:
+
+    tomcat-configomatic:
+        container_name: tomcat-configomatic
+        ports:
+            - 8777:8080
+        restart: unless-stopped
+        volumes:
+            - ./WAR:/usr/local/tomcat/webapps
+        image: tomcat-configomatic-img:latest
+
+    mysql:
+        container_name: mysql-configomatic
+        restart: unless-stopped
+        image: mysql:8
+        environment:
+            - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+        volumes:
+            - ./mysql:/config
