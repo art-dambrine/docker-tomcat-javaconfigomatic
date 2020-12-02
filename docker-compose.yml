@@ -1,7 +1,6 @@
 version: '3.3'
 
 services:
-
     tomcat-configomatic:
         container_name: tomcat-configomatic
         ports:

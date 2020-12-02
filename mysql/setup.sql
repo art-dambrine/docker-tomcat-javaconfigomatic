@@ -1,8 +1,8 @@
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'Karmitelagrenouilledu69';
-CREATE USER 'configomatic'@'%' IDENTIFIED BY 'Karmitelagrenouilledu69';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Karmitelagrenouilledu59';
+CREATE USER 'configomatic'@'%' IDENTIFIED BY 'Karmitelagrenouilledu59';
 CREATE DATABASE configomatic;
 GRANT ALL PRIVILEGES ON configomatic.* TO 'configomatic'@'%';
-ALTER USER 'configomatic'@'%' IDENTIFIED WITH mysql_native_password BY 'Karmitelagrenouilledu69';
+ALTER USER 'configomatic'@'%' IDENTIFIED WITH mysql_native_password BY 'Karmitelagrenouilledu59';
 
 USE configomatic;
 
