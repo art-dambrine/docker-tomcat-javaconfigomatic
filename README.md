@@ -5,7 +5,7 @@ Une fois les etapes d'installation effectuée rendez vous à l'URL : http://mons
 
 ## Etapes d'installation
 
-1. Changer les identifiants
+1. Changer les identifiants (optionnel)
 ```
 <Resource name="jdbc/JavaConfigomaticDB" auth="Container" type="javax.sql.DataSource"
                maxTotal="10" maxIdle="3" maxWaitMillis="10000"
